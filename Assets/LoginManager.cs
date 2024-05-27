@@ -18,7 +18,7 @@ public class LoginManager : MonoBehaviour
         {
             Debug.Log("Access granted");
         }
-        else Debug.Log("Access denied");
+        else { Debug.Log("Access denied"); }
     }
     
 }
